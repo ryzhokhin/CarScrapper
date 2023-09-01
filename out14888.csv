@@ -1,0 +1,41 @@
+Contract,Price,Year,Make&Model,Location,Miles,Category
+Sold,3000,1997,Nissan 240sx,"Antioch, CA",1200,A
+Pending,20000,1997,Nissan 240sx,"Roseville, CA",110000,D
+Sold,5500,1995,Nissan 240sx,"Carpinteria, CA",117000,B
+Sold,26999,1997,Nissan 240sx,"Los Angeles, CA",144000,F
+Sold,11000,1995,Nissan 240sx,"Alameda, CA",201000,C
+Sold,4500,1987,Nissan 300zx,"Monterey, CA",103000,A
+Sold,10000,1999,Mitsubishi eclipse,"Fresno, CA",120000,B
+Sold,26500,1997,Mazda rx-7,"Rancho Cucamonga, CA",82000,F
+Pending,3000,1990,Nissan 240sx,"Vallejo, CA",180000,A
+Sold,5000,1990,Nissan 240sx,"Napa, CA",145000,A
+Sold,5500,1992,Nissan 240sx,"Vacaville, CA",180000,B
+Sold,3000,1990,Nissan 300zx,"Sacramento, CA",140000,A
+Sold,5000,1990,Nissan 240sx,"Elk Grove, CA",190000,A
+Sold,5000,1990,Nissan 240sx,"Vacaville, CA",150000,A
+Sold,8000,1995,Nissan president,"Roseville, CA",104000,B
+Pending,4000,1993,Nissan 240sx,"Eagle Point, OR",1000000,A
+Sold,4500,1991,Toyota mr2,"Manteca, CA",200000,A
+Sold,10000,1992,Nissan 240sx,"Orinda, CA",176000,B
+Sold,7500,1997,Nissan laurel,"West Covina, CA",65000,B
+Sold,5500,1986,Nissan 300zx,"Manteca, CA",168000,B
+Sold,4000,1989,Nissan 240sx,"Antelope, CA",120000,A
+Sold,2000,1972,Nissan 240sx,"Folsom, CA",100000,A
+Sold,3500,1992,Nissan sentra,"Fontana, CA",800000,A
+Sold,1900,1982,Nissan 200sx,"Lynwood, CA",170000,A
+Sold,4500,1984,Nissan 300zx,"Walnut, CA",95000,A
+Sold,2000,1991,Nissan 300zx,"Livermore, CA",98000,A
+Sold,2500,1990,Nissan 240sx,"Grass Valley, CA",696000,A
+Sold,7500,1991,Nissan 240sx,"Pixley, CA",1000,B
+Sold,10995,1988,Nissan pulsar nx sportbak,"Ontario, CA",168000,C
+Sold,10000,1995,Nissan 240sx,"Los Angeles, CA",155000,B
+Pending,10000,1987,Nissan 300zx,"Fairfield, CA",103000,B
+Sold,8000,1990,Nissan 240sx,"Palmdale, CA",150000,B
+Sold,4500,1991,Nissan 300zx,"Lincoln, CA",200000,A
+Sold,12000,1991,Nissan 240sx,"Simi Valley, CA",160000,C
+Sold,10005,1991,Nissan 240sx,"San Bernardino, CA",100000,C
+Sold,10500,1991,Nissan 300zx,"Ventura, CA",200000,C
+Sold,15000,1991,Nissan 300zx,"Paradise, CA",108000,C
+Sold,5000,1988,Nissan 300zx,"Medford, OR",227000,A
+Sold,20000,1993,Toyota mark 2,"Chino, CA",91000,D
+Sold,9800,1991,Toyota mr2,"Covina, CA",159000,B
