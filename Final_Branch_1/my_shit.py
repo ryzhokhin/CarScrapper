@@ -251,8 +251,8 @@ def linkGrabber(htmlSegment):
     return ("https://www.facebook.com" + splitSegment[3])
 
 
-def url_modifier():
-    titles = {'make': 'Nissan', 'model': '180sx', 'year': '1997'}
+def url_modifier(make, model):
+    titles = {'make': make, 'model': model, 'year': '1997'}
     a_string = str(titles['model'])
     matches = [" ", "  "]
 
@@ -275,7 +275,7 @@ def url_modifier():
     return fb_url
 
 
-def facebookScraper(fb_url,scrollDownLength=25):
+def facebookScraper(scrollDownLength, make, model):
     if __name__ == '__main__':
         candidates = []
         containerSplit = []
@@ -291,7 +291,7 @@ def facebookScraper(fb_url,scrollDownLength=25):
             options=options,
         )
 
-        driver.get(url_modifier())
+        driver.get(url_modifier(make, model))
         # url = "https://2ip.ru"
         # driver.get(url)
 
@@ -312,7 +312,7 @@ def facebookScraper(fb_url,scrollDownLength=25):
             time.sleep(5)
             driver.find_element(By.XPATH, "//button[contains(@type, 'submit')]").click()
             time.sleep(10)
-            driver.get(url_modifier())
+            driver.get(url_modifier(make, model))
         else:
             pass
 
@@ -398,7 +398,11 @@ def facebookScraper(fb_url,scrollDownLength=25):
                 if len(item) == 6:
                     print(item)
                 else:
-                    final_data.append(final_transform_entry(item))
+                    try:
+                        final_data.append(final_transform_entry(item))
+                    except:
+                        print(item + ' Машина хуйня')
+
 
             final_data_with_category = []
             for subdata in final_data:
@@ -447,7 +451,8 @@ def facebookScraper(fb_url,scrollDownLength=25):
 
         i = 0
 # нет ты пидор
-
-data_package = facebookScraper(url_modifier(),scrollDownLength=4 )
-
-data_package.to_csv('out14888.csv', index=False)
+# make_request = 'Nissan'
+# model_request = '180sx'
+# data_package = facebookScraper(4,make_request,model_request )
+#
+# data_package.to_csv('out14888.csv', index=False)
